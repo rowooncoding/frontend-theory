@@ -10,7 +10,7 @@
 ---
 
 ### Javascript
-- [ ]  변수와 호이스팅
+- [ ]  [변수와 호이스팅](https://github.com/rowooncoding/frontend-theory/blob/main/javascript/hoisting.md)
 
 ---
 

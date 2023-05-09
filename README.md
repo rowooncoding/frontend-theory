@@ -2,7 +2,7 @@
 > 프론트엔드에 관한 이론을 공부합니다.
 ## 학습 목표
 ### Network, CS
-- [ ]  JWT
+- [x]  [JWT](https://github.com/rowooncoding/frontend-theory/blob/main/network/jwt.md)
 - [ ]  HTTP
 - [ ]  이벤트 제어 방식
 - [ ]  CORS

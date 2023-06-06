@@ -4,11 +4,11 @@
 
 ### 1
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e26c71c5-7621-4f93-803d-ca102ce327da/Untitled.png)
+![image](https://github.com/rowooncoding/frontend-theory/assets/114975279/a2632d53-6698-44b2-957d-0f0870018200)
 
 window 객체가 나온다
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ed0ba90-358a-4eda-873a-da4b5c0a37c5/Untitled.png)
+![image](https://github.com/rowooncoding/frontend-theory/assets/114975279/8b6eb5fc-f2b8-456d-a709-db95ae8c00fb)
 
 함수안에 넣고 실행해도 window 객체가 나온다
 
@@ -111,6 +111,6 @@ sayHello(); // hello
 
 이렇게 호출하는것과
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3697b4c9-66f4-4bce-b09d-4253662751f0/Untitled.png)
+![image](https://github.com/rowooncoding/frontend-theory/assets/114975279/1abf215c-b1c4-40ab-a258-7bf57e7bd26d)
 
 이렇게 호출하는 것은 결과가 같다.

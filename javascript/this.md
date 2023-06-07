@@ -114,3 +114,88 @@ sayHello(); // hello
 ![image](https://github.com/rowooncoding/frontend-theory/assets/114975279/1abf215c-b1c4-40ab-a258-7bf57e7bd26d)
 
 이렇게 호출하는 것은 결과가 같다.
+### 3
+
+생성자 안에서는 그 생성자 함수가 만드는 객체가 된다(instance 객체 라고함)
+
+나중에 더 자세히 배워보자
+
+```jsx
+function machine() {
+  this.name = "kim";
+}
+
+let obj = new machine();
+console.log(obj); // machine { name: 'kim' }
+```
+
+### 4.
+
+```jsx
+<h1 id="button">test</h1>
+  <button>버튼</button>
+```
+
+버튼이 있을때
+
+```jsx
+document.getElementById('button').addEventListener('click',function(){this})
+```
+
+this를 찾으면
+
+```jsx
+e.currunetTarget // 클릭이벤트가 일어나고 있는 곳
+```
+
+과 같은 뜻이다. 
+
+```jsx
+document.getElementById('button').addEventListener('click',function(e){
+      let array = [1,2,3]
+      array.forEach(function(a){console.log(this)}) // window
+    })
+```
+
+이런 콜백함수에서 this는 window를 출력한다
+
+만약 객체 안의 콜백함수에서 this를 호출하면 어떻게 될까
+
+```jsx
+let obj = {
+  names: ["김", "이", "박"],
+  sayName: function () {
+    obj.names.forEach(function () {
+      console.log(this);
+    });
+  },
+};
+
+obj.sayName(); //Object [global](window)
+```
+
+전역이다
+
+하지만 화살표 함수를 쓰면 말이 달라진다 화살표 함수는 this를 재설정 하지 않고 부모의 this를 물려받아서 쓴다
+
+```jsx
+let obj = {
+  names: ["김", "이", "박"],
+  sayName: function () {
+		console.log(this) // obj객체
+    obj.names.forEach( () => {
+      console.log(this); // obj객체
+    });
+  },
+};
+
+obj.sayName(); 
+```
+
+부모의 this인 obj객체를 그대로 받아온다
+
+### this는 왜이래??
+
+원래 화살표 함수가 없었을 때는 call, bind 같은 것으로 this를 직접 지정해주었다.
+
+하지만 화살표 함수가 생기면서 편리해졌다

@@ -16,7 +16,7 @@
 > 자바스크립트 글들의 저작권은 코딩애플님에게 있습니다.
 > 
 - [x]  this
-- [ ]  Arrow Function
+- [x]  Arrow Function
 - [ ]  변수
 - [ ]  템플릿 리터럴
 - [ ]  Spread Operator

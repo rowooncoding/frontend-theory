@@ -69,3 +69,31 @@ document.getElementById("button").addEventListener("click", (e) => {
 ```
 
 이것의 this결과는 다르다
+
+---
+
+## 추가
+
+### setTimeout()
+
+> 특정 코드나 함수를 n초 후에 실행하고 싶을 때 사용한다.
+
+### 활용법
+
+```jsx
+setTimeout(() => {
+  console.log("안녕");
+}, 1000); // 1초 후에 안녕히 적힌다
+```
+
+함수를 넣을 수도 있다.
+
+```jsx
+function foo() {
+  console.log("안녕");
+}
+
+setTimeout(foo, 1000);
+```
+
+위에가 더 간단한듯!

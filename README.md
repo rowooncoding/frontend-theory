@@ -17,8 +17,8 @@
 > 
 - [x]  this
 - [x]  Arrow Function
-- [ ]  변수
-- [ ]  템플릿 리터럴
+- [x]  변수
+- [x]  템플릿 리터럴
 - [ ]  Spread Operator
 - [ ]  함수
 - [ ]  rest 파라미터

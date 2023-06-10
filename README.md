@@ -19,10 +19,10 @@
 - [x]  Arrow Function
 - [x]  변수
 - [x]  템플릿 리터럴
-- [ ]  Spread Operator
-- [ ]  함수
-- [ ]  rest 파라미터
-- [ ]  Reference data type
+- [x]  Spread Operator
+- [x]  함수
+- [x]  rest 파라미터
+- [x]  Reference data type
 - [ ]  객체지향(constructor, prototype, extends/super, getter/setter)
 - [ ]  상속(ES5, ES6)
 - [ ]  Destructuring
